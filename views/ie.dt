@@ -1,0 +1,8 @@
+<!--[if IE]>
+p.
+	This is Internet Explorer
+<[endif]-->
+<!--[if !IE]> -->
+p.
+	This is not Internet Explorer
+<!--[endif]> -->
