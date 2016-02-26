@@ -1,0 +1,6 @@
+doctype html
+html
+	head
+		title Greetings from vibe.d
+	body
+		p Hello, World!
