@@ -1,22 +1,8 @@
-doctype html
-html
-	head
-		meta(charset='utf-8')
-		title Demo
-		link(rel='stylesheet', type='text/css', href='demo.css')
-	body
-		header
-			| Header
-		nav
-			ul
-				li
-					a(href='link1') Link 1
-				li
-					a(href='link2') Link 2
-				li
-					a(href='link3') Link 3
-		article
-			h1 Title
-			p Some content here.
-		footer
-			| Footer
+extends layout
+block content
+	article
+		:markdown
+			Title
+			=====
+
+			Some content here.

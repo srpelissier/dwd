@@ -1,0 +1,16 @@
+doctype html
+html
+	head
+		meta(charset='utf-8')
+		title Demo
+		link(rel='stylesheet', type='text/css', href='demo.css')
+	body
+		block header
+			header Header
+		block nav
+			include nav
+		block content
+		block footer
+			footer Footer
+		:javascript
+			console.log('D is awesome')
